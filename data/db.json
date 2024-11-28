@@ -1,0 +1,46 @@
+{
+    "data":[
+        {
+            "id": "1",
+            "title": "Veggie CardBonara",
+            "time": 20,
+            "description": "Some description",
+            "vegan": false
+        },
+        {
+            "id": "2",
+            "title": "Veggie CardBonara",
+            "time": 20,
+            "description": "Some description",
+            "vegan": false
+        },
+        {
+            "id": "3",
+            "title": "Veggie CardBonara",
+            "time": 20,
+            "description": "Some description",
+            "vegan": false
+        },
+        {
+            "id": "4",
+            "title": "Veggie CardBonara",
+            "time": 20,
+            "description": "Some description",
+            "vegan": false
+        },
+        {
+            "id": "5",
+            "title": "Veggie CardBonara",
+            "time": 20,
+            "description": "Some description",
+            "vegan": false
+        },
+        {
+            "id": "6",
+            "title": "Veggie CardBonara",
+            "time": 20,
+            "description": "Some description",
+            "vegan": false
+        }
+    ]
+}
