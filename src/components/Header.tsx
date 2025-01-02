@@ -1,4 +1,4 @@
-"use-client";
+"use client";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -27,12 +27,13 @@ export default function Header() {
   ])
   
   return (
-    <div className="w-full grid grid-cols-2 gap-4 border-b">
+    <div className="grid grid-cols-2 gap-4 border-b p-4">
       <CommandDemo />
       <div className="flex items-center justify-end">
         <DropdownMenu>
           <DropdownMenuTrigger>
             <Button variant="outline" size="icon">
+              <div className={`h-3 w-3 rounded-full my-1 ${notifications ? 'bg-green-500' : 'bg-neutral-200'}`}></div>
               <BellIcon className="h-4 w-4"></BellIcon>
             </Button>
           </DropdownMenuTrigger>
